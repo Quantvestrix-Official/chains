@@ -1,0 +1,61 @@
+{
+  "name": "QVTX Expression Chain",
+  "chain": "QVTX",
+  "rpc": [
+    "http://162.0.222.112:8545"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX Expression Token",
+    "symbol": "QXP",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.com",
+  "shortName": "qxp",
+  "chainId": 20233,
+  "networkId": 20233,
+  "slip44": 60,
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "explorers": [
+    {
+      "name": "QVTX Chain Explorer",
+      "url": "https://qvtxscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-20232",
+    "bridges": [
+      {
+        "url": "https://quantvestrix.com/bridge/eth"
+      },
+      {
+        "url": "https://quantvestrix.com/bridge/bsc"
+      },
+      {
+        "url": "https://quantvestrix.com/bridge/polygon"
+      },
+      {
+        "url": "https://quantvestrix.com/bridge/btc"
+      },
+      {
+        "url": "https://quantvestrix.com/bridge/cosmos"
+      },
+      {
+        "url": "https://quantvestrix.com/bridge/dot"
+      },
+      {
+        "url": "https://quantvestrix.com/bridge/avax"
+      }
+    ]
+  },
+  "status": "active"
+}
