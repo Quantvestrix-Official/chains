@@ -1,0 +1,25 @@
+{
+  "name": "QVTX Native Chain",
+  "chain": "QVTX",
+  "rpc": [
+    "http://162.0.222.112:8549"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.com",
+  "shortName": "qvtx",
+  "chainId": 20232,
+  "networkId": 20232,
+  "explorers": [
+    {
+      "name": "QVTX Chain Explorer",
+      "url": "https://qvtxscan.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
+}
